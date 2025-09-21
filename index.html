@@ -9,6 +9,155 @@
   <title>Document</title>
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand bg-brand" href="#">Restaurant</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="parent navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active d-inline" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline" href="#">About</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link d-inline" href="#">Team</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link d-inline" href="#">Food</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link d-inline" href="#">Drinks</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link d-inline" href="#">Contact Us</a>
+              </li>           
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item h-100">
+          <img src="./img/one.jpg" class="d-block w-100 c-img img-fluid" alt="...">
+          <div class="carousel-caption top-0 mt-5 d-none d-md-block parent-carsousel">
+            <h1 class="text-capitalize fw-bolder display-3">Welcome to Restaurant</h1>
+            <p class="fs-5 my-4">Discover a cozy place where tradition meets taste. Enjoy fresh meals prepared with love, served in a warm and friendly atmosphere.</p>
+            <button class="btn btn-primary">Click me</button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./img/two.jpg" class="d-block w-100 c-img img-fluid" alt="...">
+          <div class="carousel-caption top-0 mt-5 d-none d-md-block parent-carsousel">
+            <h1 class="text-capitalize fw-bolder display-3">Delicious & Fresh Every Day</h1>
+            <p class="fs-5 my-4">From traditional dishes to modern flavors, our menu is crafted with fresh local ingredients to give you the perfect dining experience</p>
+            <button class="btn btn-primary">Click me</button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./img/tree.jpg" class="d-block w-100 c-img img-fluid" alt="...">
+          <div class="carousel-caption top-0 mt-5 d-none d-md-block parent-carsousel">
+            <h1 class="text-capitalize fw-bolder display-3">More Than Just a Meal</h1>
+            <p class="fs-5 my-4">Whether it’s breakfast, lunch, or dinner, we offer fast service, takeaway options, and a welcoming space to enjoy with family and friends.</p>
+            <button class="btn btn-primary">Click me</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Start about -->
+   <section class=" bg-light pt-5 pb-5">
+    <h1 class="fw-bold text-center ">About</h1>
+    <p class="text-body-secondary text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, odit.</p>
+    <div class="container mt-4">
+      <div class=" container mx-auto d-flex justify-content-center gap-5 align-items-center">
+        <!-- <div class="col-lg-6">
+          <div class="info d-none d-md-block float-end">
+            <img src="./img/about.jpg" class="img" alt="">
+          </div>
+        </div> -->
+        <img src="./img/about.jpg" class="img rounded-5 d-none d-md-block" alt="">
+        
+          <div class="content">
+            <p class="text-center lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Asperiores, earum! Sunt nihil officia sequi minima inventore odio 
+               possimus vero ipsa natus iusto pariatur doloribus cum perspiciatis 
+               magnam delectus dolorem exercitationem tempore, libero ex animi aperiam.
+                Adipisci molestiae ea explicabo, ad quasi dolorem assumenda quae asperiores voluptate,
+               libero provident officiis commodi.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil esse sequi labore quas deleniti. Saepe!</p>
+              <div class="d-flex justify-content-center align-items-center mt-3">
+                <a href="" class="btn btn-primary text-center d-inline">Read More</a>
+              </div>
+          </div>
+        
+      </div>
+    </div>
+   </section>
+
+   <!-- Start Team -->
+
+   <section class="  pt-5 pb-5">
+    <h1 class="fw-bold text-center ">Our Team</h1>
+    <p class="text-body-secondary text-center mb-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, odit.</p>
+
+    <div class="container mt-5">
+      <div class="row">
+        
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="content shadow p-3 rounded-5 bg-light d-flex flex-column align-items-center">
+            <img src="./img/cf1.jpeg " class="border border-warning img-fluid rounded-circle img-team" alt="">
+            <h3 class="text-center text-body-secondary mt-2">Savor</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="content shadow p-3 rounded-5 bg-light d-flex flex-column align-items-center">
+            <img src="./img/cf2.jpeg " class="border border-warning img-fluid rounded-circle img-team" alt="">
+            <h3 class="text-center text-body-secondary mt-2">Zest</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="content shadow p-3 rounded-5 bg-light d-flex flex-column align-items-center">
+            <img src="./img/download (1).jpeg " class="border border-warning img-fluid rounded-circle img-team" alt="">
+            <h3 class="text-center text-body-secondary mt-2">Flame</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="content shadow p-3 rounded-5 bg-light d-flex flex-column align-items-center">
+            <img src="./img/cf4.jpeg " class="border border-warning img-fluid rounded-circle img-team" alt="">
+            <h3 class="text-center text-body-secondary mt-2">Bistro</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+       
+      </div>
+    </div>
+   </section>
   
 </body>
 <script src="js/bootstrap.bundle.min.js"></script>
