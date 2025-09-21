@@ -22,7 +22,7 @@ header nav{
     padding: 10px 5 !important;
 
 }
-.parent li a::after{
+/* .parent li a::after{
   position: absolute;
   content: '';
   background: red;
@@ -34,7 +34,7 @@ header nav{
 }
 .parent li a:hover::after{
   width: 100%;
-}
+} */
 .bg-brand{
   font-size: 30px !important;
   font-weight: bold;
@@ -61,4 +61,10 @@ header nav{
 .img-team{
   width: 200px;
   height: 200px;
+}
+.box{
+  transition: .3s;
+}
+.box:hover{
+  transform: translateY(-20px);
 }
